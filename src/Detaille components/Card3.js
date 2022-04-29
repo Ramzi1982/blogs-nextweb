@@ -8,7 +8,7 @@ function Card3() {
     <div className='singleCard'>
     <div className='singleCardWrapper'>
       <img src={image3} alt='' className='singleCardImg' />
-      <h1 className='singleCardTitle'>La technologie pour votre site web
+      <h1 className='singleCardTitle'>La technologie de votre site web
      
       <div className='singleCardEdit'>
         <i class="fa-solid fa-pen-to-square"></i>

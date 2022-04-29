@@ -23,7 +23,7 @@ function Card({ title, imageSource, text }) {
           }
         </p>
         
-        <a href='#'  className='btn btn-outline-secondary rounded-0'>Lire la suite </a>
+        <a href='/Card1'  className='btn btn-outline-secondary rounded-0'>Lire la suite </a>
       
       </div>
     </div>

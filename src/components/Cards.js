@@ -25,7 +25,7 @@ const cards = [
   },
   {
     id: 3,
-    title: 'La technologie pour votre site web',
+    title: 'La technologie de votre site web',
     image: image3,
   }
 ]
@@ -33,7 +33,7 @@ const cards = [
 function Cards() {
   
   return (
-    <div className='container display-flex justify-content-center align-items-center h-100 '>
+    <div className='container display-flex justify-content-center align-items-center h-100  '>
       <div className='row'>
         {
           cards.map((card) => (
