@@ -11,7 +11,8 @@ const cards = [
   {
     id: 1,
     title: 'Realiser son cahier des charges',
-    image: image1
+    image: image1,
+    
 
 
 
@@ -38,7 +39,7 @@ function Cards() {
         {
           cards.map((card) => (
             <div className='col-md-4' key={card.id}>
-              <Card title={card.title} imageSource={card.image} text={card.text} />
+              <Card title={card.title} imageSource={card.image} text={card.text} id={card.id} />
             </div>
 
           ))

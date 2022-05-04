@@ -1,12 +1,14 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import './Cards.css'
+import {Link} from 'react-router-dom'
 
 
 
 
 
-function Card({ title, imageSource, text }) {
+function Card({ title, imageSource, text,id }) {
+  console.log(id)
 
   return (
     <div className='card text-center bg-dark animate__animated animate__fadeInUp '>
@@ -23,7 +25,7 @@ function Card({ title, imageSource, text }) {
           }
         </p>
         
-        <a href='/Card1'  className='btn btn-outline-secondary rounded-0'>Lire la suite </a>
+        <Link to={`/Cards/${id}`}  className='btn btn-outline-secondary rounded-0'>Lire la suite </Link>
       
       </div>
     </div>
